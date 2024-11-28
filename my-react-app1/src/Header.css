@@ -1,0 +1,88 @@
+/* General Reset */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f4f4f9;
+    color: #333;
+}
+
+/* Header Styles */
+header {
+    background-color: #737373;
+    color: #fff;
+    padding: 1rem 0;
+    border-bottom: 4px solid #0056b3;
+    text-align: center; /* Center the header content */
+}
+
+h1 {
+    font-size: 2.5rem;
+    font-weight: bold;
+    margin: 0;
+}
+
+nav {
+    margin-top: 2rem; /* Adds space between the title and the navigation */
+}
+
+ul {
+    list-style: none;
+    display: flex; /* Display links in a row */
+    justify-content: center; /* Centers the links horizontally */
+    gap: 1.5rem; /* Adds spacing between the links */
+    padding: 0;
+}
+
+a {
+    text-decoration: none;
+    color: #fff;
+    font-size: 1.2rem;
+    transition: color 0.3s ease;
+}
+
+/* Apply bounce animation to links when hovered */
+a:hover {
+    color: #ffdd57; /* Changes color on hover */
+    animation: bounce 0.5s ease; /* Apply bounce animation to the link */
+}
+
+/* Bounce effect defined in keyframes */
+@keyframes bounce {
+    0% {
+        transform: translateY(0); /* Start position */
+    }
+    25% {
+        transform: translateY(-10px); /* Move up */
+    }
+    50% {
+        transform: translateY(0); /* Return to original position */
+    }
+    75% {
+        transform: translateY(-5px); /* Move up slightly */
+    }
+    100% {
+        transform: translateY(0); /* Return to original position */
+    }
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 2rem;
+    }
+
+    ul {
+        flex-direction: column; /* Stacks the links vertically on smaller screens */
+        gap: 1rem;
+    }
+
+    a {
+        font-size: 1rem;
+    }
+}
