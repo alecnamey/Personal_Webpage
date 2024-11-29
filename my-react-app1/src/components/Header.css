@@ -7,10 +7,11 @@
 
 body {
     font-family: Arial, sans-serif;
-    line-height: 1.6;
+    line-height: 1;
     background-color: #f4f4f9;
     color: #333;
 }
+
 
 /* Header Styles */
 header {
@@ -24,6 +25,7 @@ header {
 h1 {
     font-size: 2.5rem;
     font-weight: bold;
+    font-style: initial;
     margin: 0;
 }
 
@@ -39,6 +41,19 @@ ul {
     padding: 0;
 }
 
+.card-image2 {
+    width: 30px; /* Adjust the size of the image */
+    height: 30px; /* Adjust the size of the image */
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the container */
+    transition: transform 0.3s ease-in-out; /* Smooth animation for hover effect */
+  }
+  
+  .card-image2:hover {
+    transform: scale(1.1); /* Zooms the image slightly on hover */
+  }
+  
+
 a {
     text-decoration: none;
     color: #fff;
@@ -49,25 +64,17 @@ a {
 /* Apply bounce animation to links when hovered */
 a:hover {
     color: #ffdd57; /* Changes color on hover */
-    animation: bounce 0.5s ease; /* Apply bounce animation to the link */
+    animation: bounce 1s ease-in-out; /* Apply bounce animation on hover */
 }
 
 /* Bounce effect defined in keyframes */
 @keyframes bounce {
-    0% {
-        transform: translateY(0); /* Start position */
+    0%, 100% {
+        transform: translateY(0);
     }
-    25% {
-        transform: translateY(-10px); /* Move up */
-    }
+
     50% {
-        transform: translateY(0); /* Return to original position */
-    }
-    75% {
-        transform: translateY(-5px); /* Move up slightly */
-    }
-    100% {
-        transform: translateY(0); /* Return to original position */
+        transform: translateY(-20px);
     }
 }
 
