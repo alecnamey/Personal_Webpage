@@ -8,6 +8,7 @@ function About(){
         <>
             <Header/>
             <Card/>
+            
             <Footer/>
         </>
     )
