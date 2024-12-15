@@ -1,20 +1,21 @@
-/* Ensure the body takes the full height of the page */
 html, body {
-    height: 100%;
-    margin: 0; /* Remove default margin */
-    display: flex;
-    flex-direction: column;
-  }
-  
-  main {
-    flex: 1; /* Allows the content to grow and push the footer down */
-  }
-  
-  footer {
-    text-align: center; /* Centers the footer text */
-    padding: 10px; /* Adjust padding as needed */
-    background-color: #333; /* Optional: Set footer background color */
-    color: #fff; /* Optional: Set footer text color */
-    margin-top: auto; /* Pushes the footer to the bottom */
-  }
-  
+  height: 100%; /* Ensure the body takes up full height */
+  margin: 0; /* Remove default margin */
+}
+
+body {
+  display: flex;
+  flex-direction: column; /* Arrange children vertically */
+  min-height: 100vh; /* Set minimum height to viewport height */
+}
+
+main {
+  flex: 1; /* Grow and push footer to the bottom */
+}
+
+footer {
+  text-align: center; /* Centers footer content */
+  padding: 10px; /* Optional padding for better spacing */
+  background-color: #f1f1f1; /* Optional background color for distinction */
+  margin-top: auto; /* Pushes the footer to the bottom */
+}

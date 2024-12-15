@@ -1,5 +1,5 @@
 import './Header.css';
-import profilePic2 from '/Users/alecnamey/App1/my-react-app1/src/assets/linked.jpeg'
+import profilePic2 from '/Users/alecnamey/Personal_Webpage/my-react-app1/src/assets/linked.jpeg'
 function Header(){
     return(
         <header>

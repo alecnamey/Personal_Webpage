@@ -1,4 +1,4 @@
-import profilePic from '/Users/alecnamey/App1/my-react-app1/src/assets/pfp.jpeg'
+import profilePic from '/Users/alecnamey/Personal_Webpage/my-react-app1/src/assets/pfp2.jpeg'
 
 function Card(){
     return(
