@@ -7,7 +7,7 @@ function Home(){
         <>
             <Header/>
             <h2>Home Page</h2>
-            <Footer/>
+            <Footer className="footer-page" />
         </>
     );
 

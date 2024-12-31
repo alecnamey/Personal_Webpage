@@ -14,7 +14,10 @@ main {
 }
 
 footer {
-  text-align: center; /* Centers footer content */
+  
+  position: absolute;
+  top: 90%;
+  left: 43%;
   padding: 10px; /* Optional padding for better spacing */
   background-color: #f1f1f1; /* Optional background color for distinction */
   margin-top: auto; /* Pushes the footer to the bottom */
