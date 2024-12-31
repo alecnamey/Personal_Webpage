@@ -1,14 +1,14 @@
 {
-  "homepage": "https://github.com/alecnamey/Personal_Webpage",
+  "homepage": "https://alecnamey.github.io/Personal_Webpage/",
   "name": "my-react-app1",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
-    "build": "react-scripts build",
-    "lint": "eslint .",
-    "preview": "vite preview"
+    "build": "vite build",
+    "serve": "vite preview",
+    "deploy": "gh-pages -d dist"
     
   },
   "dependencies": {
