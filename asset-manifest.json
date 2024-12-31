@@ -1,0 +1,14 @@
+{
+  "files": {
+    "main.css": "/alecnamey/Personal_Webpage/static/css/main.4b3539d4.css",
+    "main.js": "/alecnamey/Personal_Webpage/static/js/main.18a1bc2d.js",
+    "static/media/pfp2.jpeg": "/alecnamey/Personal_Webpage/static/media/pfp2.0b07e2e9e5984243dc88.jpeg",
+    "index.html": "/alecnamey/Personal_Webpage/index.html",
+    "main.4b3539d4.css.map": "/alecnamey/Personal_Webpage/static/css/main.4b3539d4.css.map",
+    "main.18a1bc2d.js.map": "/alecnamey/Personal_Webpage/static/js/main.18a1bc2d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.4b3539d4.css",
+    "static/js/main.18a1bc2d.js"
+  ]
+}
