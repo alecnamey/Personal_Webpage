@@ -1,0 +1,184 @@
+.about .about-title{
+    position: absolute;
+    background-color: #474ded;
+    padding: 1%;
+    top: 19%;
+    left: 4%;
+    border-radius: black;
+    color: black;
+    border-radius: 40%;
+    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
+}
+.about .about-para{
+    position: absolute;
+    left: 8%;
+    top: 35%;
+    color:black;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: large;
+
+    display: inline-block; /* Keeps the border width to the text content */
+    border-bottom: 2px solid #000; /* Adjust color and thickness */
+    padding-bottom: 5px; /* Adds some spacing between the text and the line */
+}
+
+
+.about .card{
+    position: absolute;
+    top: 20%;
+    left: 80%;
+    background-color: hsla(193, 28%, 84%, 0.5);
+    border: 2px solid;
+    padding: 0.1%;
+
+}
+.about-title2{
+    position: absolute;
+    left: 8%;
+    top:30%;
+    color: black;
+    display: inline-block; /* Keeps the border width to the text content */
+    border-bottom: 2px solid #000; /* Adjust color and thickness */
+    padding-bottom: 5px; /* Adds some spacing between the text and the line */
+
+}
+
+.about .languages-title{
+    position: absolute;
+    left: 8%;
+    top: 45%;
+    color: black;
+    display: inline-block; /* Keeps the border width to the text content */
+    border-bottom: 2px solid #000; /* Adjust color and thickness */
+    padding-bottom: 5px; /* Adds some spacing between the text and the line */
+
+}
+.about .skills-title2{
+    position: absolute;
+    left: 26%;
+    top: 45%;
+    color: black;
+    display: inline-block; /* Keeps the border width to the text content */
+    border-bottom: 2px solid #000; /* Adjust color and thickness */
+    padding-bottom: 5px; /* Adds some spacing between the text and the line */
+
+}
+/* General container styles */
+.languages {
+   position: relative;
+   top: 18em;
+   left: 8em;
+}
+
+.language {
+    display: flex;
+    align-items: center;
+    margin-bottom: 15px;
+    width: 12%;
+    
+}
+
+/* Label for the skill */
+.language span {
+    width: 90px; /* Adjust as needed */
+    font-size: 1.2em;
+    margin-right: 10px;
+}
+
+/* Progress bar container */
+.progress-bar {
+    flex: 1;
+    height: 20px;
+    width: 5px; /* Set the desired width */
+    background-color: #e0e0e0;
+    border-radius: 10px;
+    overflow: hidden;
+}
+
+/* Actual progress (dynamic width) */
+.progress {
+    height: 100%;
+    width: 20%; /* Set the desired width */
+    border-radius: 10px;
+}
+
+/* Specific progress for each language */
+.java {
+    width: 95%; /* Adjust percentage dynamically */
+    background-color: #a51b1b;
+    
+}
+
+.python {
+    width: 75%; /* Adjust percentage dynamically */
+    background-color: #161ba3;
+}
+
+.cpp {
+    width: 60%; /* Adjust percentage dynamically */
+    background-color: #136eb3;
+}
+.JavaScript{
+    width: 0%; /* Adjust percentage dynamically */
+    background-color: #bbdc18;
+}
+/*------*/
+
+.skills {
+    position: relative;
+    top: 9.3em;
+    left: 25em;
+ }
+ 
+ .skill {
+     display: flex;
+     align-items: center;
+     margin-bottom: 15px;
+     width: 12%;
+     
+ }
+ 
+ /* Label for the skill */
+ .skill span {
+     width: 90px; /* Adjust as needed */
+     font-size: 1.2em;
+     margin-right: 10px;
+ }
+ 
+ /* Progress bar container */
+ .progress-bar {
+     flex: 1;
+     height: 20px;
+     width: 5px; /* Set the desired width */
+     background-color: #e0e0e0;
+     border-radius: 10px;
+     overflow: hidden;
+ }
+ 
+ /* Actual progress (dynamic width) */
+ .progress {
+     height: 100%;
+     width: 20%; /* Set the desired width */
+     border-radius: 10px;
+ }
+ 
+ /* Specific progress for each language */
+ .sql {
+     width: 85%; /* Adjust percentage dynamically */
+     background-color: #a51b1b;
+     
+ }
+ 
+ .react {
+     width: 75%; /* Adjust percentage dynamically */
+     background-color: #161ba3;
+ }
+ 
+ .css {
+     width: 60%; /* Adjust percentage dynamically */
+     background-color: #136eb3;
+ }
+ .vs-code{
+     width: 50%; /* Adjust percentage dynamically */
+     background-color: #bbdc18;
+ }

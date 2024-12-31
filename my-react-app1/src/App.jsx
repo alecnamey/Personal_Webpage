@@ -12,7 +12,7 @@ function App() {
     
     <div>
   
-      <BrowserRouter basename="/Personal_Webpage/">
+      <BrowserRouter>
         <Routes>
           <Route index element={<Home/>} />
           <Route path="/home" element={<Home />} />
