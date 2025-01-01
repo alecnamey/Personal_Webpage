@@ -1,21 +1,11 @@
-.about .about-title{
-    position: absolute;
-    background-color: #474ded;
-    padding: 1%;
-    top: 19%;
-    left: 4%;
-    border-radius: black;
-    color: black;
-    border-radius: 40%;
-    font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; 
-}
+
 .about .about-para{
     position: absolute;
     left: 8%;
-    top: 35%;
+    top: 20%;
     color:black;
     font-family: 'Courier New', Courier, monospace;
-    font-size: large;
+    font-size: 20px;
 
     display: inline-block; /* Keeps the border width to the text content */
     border-bottom: 2px solid #000; /* Adjust color and thickness */
@@ -25,7 +15,7 @@
 
 .about .card{
     position: absolute;
-    top: 20%;
+    top: 10%;
     left: 80%;
     background-color: hsla(193, 28%, 84%, 0.5);
     border: 2px solid;
@@ -35,7 +25,7 @@
 .about-title2{
     position: absolute;
     left: 8%;
-    top:30%;
+    top: 14%;
     color: black;
     display: inline-block; /* Keeps the border width to the text content */
     border-bottom: 2px solid #000; /* Adjust color and thickness */
@@ -46,7 +36,7 @@
 .about .languages-title{
     position: absolute;
     left: 8%;
-    top: 45%;
+    top: 35%;
     color: black;
     display: inline-block; /* Keeps the border width to the text content */
     border-bottom: 2px solid #000; /* Adjust color and thickness */
@@ -56,12 +46,20 @@
 .about .skills-title2{
     position: absolute;
     left: 26%;
-    top: 45%;
+    top: 35%;
     color: black;
     display: inline-block; /* Keeps the border width to the text content */
     border-bottom: 2px solid #000; /* Adjust color and thickness */
     padding-bottom: 5px; /* Adds some spacing between the text and the line */
-
+}
+.about .Experience-Title{
+    position: absolute;
+    left: 8%;
+    top: 62%;
+    color: black;
+    display: inline-block; /* Keeps the border width to the text content */
+    border-bottom: 2px solid #000; /* Adjust color and thickness */
+    padding-bottom: 5px; /* Adds some spacing between the text and the line */
 }
 /* General container styles */
 .languages {

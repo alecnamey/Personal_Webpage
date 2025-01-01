@@ -15,16 +15,20 @@ body {
 
 /* Header Styles */
 header {
-    background-color: #737373;
-    color: #fff;
-    padding: 1rem 0;
-    border-bottom: 4px solid #0056b3;
-    text-align: center; /* Center the header content */
+    background-color: #1e7c7a;
+    color: #ffffff;
+    padding: 0.1rem;
+    border-bottom: 4px solid #3aafba;
+    left: 20%;
+    text-align: 10%; /* Center the header content */
 }
 
 h1 {
     font-size: 2.5rem;
     font-weight: bold;
+    position: absolute;
+    padding: 1rem;
+    left: 5%;
     font-style: initial;
     margin: 0;
 }

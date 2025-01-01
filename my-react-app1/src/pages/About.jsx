@@ -9,14 +9,14 @@ function About(){
         <div className = "about">
             <Header/>
             <div>
-                <h1 className="about-title">Alec Namey</h1>
+                
                 <div>
                 <h2 className="about-title2">About Me</h2>
                 
-                <p className = " about-para"> My name is Alec Namey, I am currently a student studying at
-                    the University of California, Santa Cruz <br></br>orgianlly from San Diego California.
-                    I have experince with a multitude of tools and <br></br>frameworks, and am currently
-                    poslishing my frontend expertice.   
+                <p className = " about-para"> My name is Alec Namey, I am currently a student studying<br></br>
+                    at the University of California, Santa Cruz orgianlly from San Diego California.
+                    <br></br>I have experince with a multitude of tools and frameworks, and am currently
+                    poslishing<br></br> my frontend expertice.   
                 </p>
                 <h2 className="languages-title">Languages</h2>
                 <div className="languages">
@@ -75,6 +75,9 @@ function About(){
                             </div>
                         </div>
                 </div>
+                <h2 className="Experience-Title">Experience</h2>
+
+
             </div>
             <Card className = "about-card" ></Card>
             <Footer/>
