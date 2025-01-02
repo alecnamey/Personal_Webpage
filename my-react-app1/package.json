@@ -9,9 +9,9 @@
     "build": "vite build",
     "serve": "vite preview",
     "deploy": "gh-pages -d dist"
-    
   },
   "dependencies": {
+    "my-react-app1": "file:",
     "react": "^18.3.1",
     "react-dom": "^18.3.1"
   },
@@ -26,7 +26,7 @@
     "eslint-plugin-react-refresh": "^0.4.14",
     "gh-pages": "^6.2.0",
     "globals": "^15.12.0",
-    "vite": "^6.0.1"
+    "vite": "^6.0.6"
   },
   "browserslist": {
     "production": [
@@ -40,5 +40,4 @@
       "last 1 safari version"
     ]
   }
-  
 }
