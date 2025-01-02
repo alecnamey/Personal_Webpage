@@ -10,6 +10,8 @@ body {
     line-height: 1;
     background-color: white;
     color: #333;
+    position: relative;
+    
 }
 
 
@@ -17,7 +19,7 @@ body {
 header {
     background-color: #1e7c7a;
     color: #ffffff;
-    padding: 0.1rem;
+    padding: 0.4rem;
     border-bottom: 4px solid #3aafba;
     left: 20%;
     text-align: 10%; /* Center the header content */
@@ -40,15 +42,33 @@ nav {
 ul {
     list-style: none;
     display: flex; /* Display links in a row */
+    position: relative;
+    
+    left: 30%;
     justify-content: center; /* Centers the links horizontally */
     gap: 1.5rem; /* Adds spacing between the links */
     padding: 0;
+    
+}
+
+.git-image1{
+    width: 30px; /* Adjust the size of the image */
+    height: 30px; /* Adjust the size of the image */
+    position: absolute;
+    background-color: transparent;
+    top: -10%;
+    left: 63%;
+    border-radius: 50%; /* Makes the image circular */
+    object-fit: cover; /* Ensures the image covers the container */
+    transition: transform 0.3s ease-in-out; /* Smooth animation for hover effect */
 }
 
 .card-image2 {
     width: 30px; /* Adjust the size of the image */
     height: 30px; /* Adjust the size of the image */
-    background-color: transparent;
+    position: absolute;
+   
+    top: -10%;
     border-radius: 50%; /* Makes the image circular */
     object-fit: cover; /* Ensures the image covers the container */
     transition: transform 0.3s ease-in-out; /* Smooth animation for hover effect */
@@ -62,7 +82,7 @@ ul {
 a {
     text-decoration: none;
     color: #fff;
-    font-size: 1.2rem;
+    font-size: 1.6rem;
     transition: color 0.3s ease;
 }
 
