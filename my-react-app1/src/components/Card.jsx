@@ -1,4 +1,5 @@
-import profilePic from 'my-react-app1/src/assets/pfp2.jpeg'
+import profilePic from '../assets/pfp2.jpeg'
+
 
 function Card(){
     return(

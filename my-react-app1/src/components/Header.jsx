@@ -1,6 +1,6 @@
 import './Header.css';
-import linkedinpic from 'my-react-app1/src/assets/linkedinit.png'
-import githubpic from 'my-react-app1/src/assets/git.png'
+import linkedinpic from '../assets/linkedinit.png'
+import githubpic from '../assets/git.png'
 function Header(){
     return(
         <header>
