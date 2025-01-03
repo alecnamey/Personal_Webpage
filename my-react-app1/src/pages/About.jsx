@@ -75,7 +75,7 @@ function About(){
                             </div>
                         </div>
                 </div>
-                <h2 className="Experience-Title">Experience</h2>
+                <h2 className="Experience-Title">Work Experience</h2>
 
 
             </div>
