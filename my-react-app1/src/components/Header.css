@@ -51,16 +51,24 @@ ul {
     
 }
 
-.git-image1{
-    width: 30px; /* Adjust the size of the image */
-    height: 30px; /* Adjust the size of the image */
+.git-image1 {
+    width: 30px;
+    height: 30px;
     position: absolute;
     background-color: transparent;
     top: -10%;
     left: 63%;
-    border-radius: 50%; /* Makes the image circular */
-    object-fit: cover; /* Ensures the image covers the container */
-    transition: transform 0.3s ease-in-out; /* Smooth animation for hover effect */
+    border-radius: 50%;
+    object-fit: cover;
+    transition: transform 0.3s ease-in-out;
+    padding: 2px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    filter: invert(1);
+}
+
+.git-image1:hover {
+    transform: scale(1.1);
+    filter: invert(0.9);
 }
 
 .card-image2 {
@@ -83,17 +91,17 @@ a {
     text-decoration: none;
     color: #fff;
     font-size: 1.6rem;
-    transition: color 0.3s ease;
+    transition: all 0.3s ease-in-out; /* Match the logo transition */
 }
 
-/* Apply bounce animation to links when hovered */
+/* Replace the bounce animation with scale effect */
 a:hover {
-    color: #ffdd57; /* Changes color on hover */
-    animation: bounce 1s ease-in-out; /* Apply bounce animation on hover */
+    color: #ffdd57;
+    transform: scale(1.1); /* Same scale as the logo */
 }
 
-/* Bounce effect defined in keyframes */
-@keyframes bounce {
+/* Remove or comment out the old bounce keyframes since we're not using them anymore */
+/* @keyframes bounce {
     0%, 100% {
         transform: translateY(0);
     }
@@ -101,7 +109,7 @@ a:hover {
     50% {
         transform: translateY(-20px);
     }
-}
+} */
 
 /* Responsive Design */
 @media (max-width: 768px) {
@@ -117,4 +125,41 @@ a:hover {
     a {
         font-size: 1rem;
     }
+}
+
+/* Add or modify these styles for the nav buttons */
+.nav-buttons button {
+    transition: all 0.3s ease; /* Smooth transition for all changes */
+    transform: scale(1); /* Initial scale */
+    padding: 8px 16px;
+    margin: 0 10px;
+    border: none;
+    background: none;
+    color: inherit;
+    cursor: pointer;
+    position: relative;
+}
+
+.nav-buttons button:hover {
+    transform: scale(1.1); /* Makes button 10% bigger on hover */
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2); /* Adds subtle shadow */
+    color: #000; /* Makes text slightly darker on hover */
+    font-weight: bold; /* Makes text bolder on hover */
+}
+
+/* Optional: Add an underline effect on hover */
+.nav-buttons button::after {
+    content: '';
+    position: absolute;
+    width: 0;
+    height: 2px;
+    bottom: 0;
+    left: 50%;
+    background-color: #000;
+    transition: all 0.3s ease;
+}
+
+.nav-buttons button:hover::after {
+    width: 100%;
+    left: 0;
 }

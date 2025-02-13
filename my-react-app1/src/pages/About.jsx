@@ -76,8 +76,19 @@ function About(){
                         </div>
                 </div>
                 <h2 className="Experience-Title">Work Experience</h2>
-
-
+                <div className="experience-container">
+                    <div className="job">
+                        <h3 className="company">Trevet, San Diego, CA</h3>
+                        <p className="job-date">Jan. 2024 - Sept. 2024</p>
+                        <p className="job-title">Information Technology Intern</p>
+                        <ul className="job-duties">
+                            <li>Maintained user software and hardware companywide.</li>
+                            <li>Monitored server health virtually and in person.</li>
+                            <li>Assisted users with tech issues by troubleshooting.</li>
+                            <li>Transitioned printers from a server-based system to a cloud-based solution via Azure.</li>
+                        </ul>
+                    </div>
+                </div>
             </div>
             <Card className = "about-card" ></Card>
             <Footer/>
